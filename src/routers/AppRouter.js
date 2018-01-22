@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Link, NavLink} from 'react-router-dom';
+import createHistory from 'history/createBrowserHistory';
 import Header from '../components/Header';
 import NotFoundPage from '../components/NotFoundPage';
 import HomePage from '../components/HomePage';

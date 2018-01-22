@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AddSign = () => (
   <div>
@@ -14,6 +15,9 @@ const AddSign = () => (
      </div>
      <div>
         <img src="./images/slutBaraBild.jpg" alt="teckenbild" />
+     </div>
+     <div>
+       <button><Link to="/createnewcreate"> Klar </Link></button>
      </div>
    </div>
  );

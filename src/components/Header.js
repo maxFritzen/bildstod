@@ -5,6 +5,7 @@ import HomePage from './HomePage';
 const Header = () => (
   <header>
     <Link to="/">Hem</Link>
+    <button onClick={() => window.history.back()}>Tillbaka</button>
   </header>
 )
 export default Header;
