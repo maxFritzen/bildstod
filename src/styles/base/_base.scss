@@ -1,10 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
 html {
-  font-size:62.5%;
+  // This defines what 1rem is
+  font-size: 62.5%;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: $m-size;
+  box-sizing: border-box;
 }
 
 button {

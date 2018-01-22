@@ -4,4 +4,14 @@ import ReactDOM from 'react-dom';
 import AppRouter from './routers/AppRouter';
 import './styles/styles.scss';
 
-ReactDOM.render(<AppRouter />, document.getElementById('app'));
+const App = () => (
+  <div>
+    <div className="container">
+      <AppRouter />
+    </div>
+
+  </div>
+
+);
+
+ReactDOM.render(<App />, document.getElementById('app'));

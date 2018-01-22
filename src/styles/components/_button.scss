@@ -1,0 +1,26 @@
+.btn {
+  border-radius: 1rem;
+  outline: none;
+  padding: 1rem;
+
+  &--create {
+    background-color: $color-primary-light;
+    color: $color-black;
+    font-size: $l-size;
+    font-weight: 900;
+  }
+
+  &--back {
+    
+  }
+
+  &--blue-light {
+    background-color: $color-blue-light;
+    color: $color-white;
+  }
+
+  &--green-light {
+    background-color: $color-green-light;
+    color: $color-black;
+  }
+}

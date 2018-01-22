@@ -3,16 +3,26 @@ import { Link } from 'react-router-dom';
 
 const CreateNew = () => (
 <div>
-  <h1>Skapa nytt schema</h1>
-  <p className="info">
-    Fyll i egna dimensioner eller välj ett alternativ.
-    Välj 2 * 1 för att gå vidare.
-   </p>
-   <input type="text" placeholder="Fyll i egna dimensioner"></input>
-   <button> 3 * 5 </button>
-   <button><Link to="/createnewcreate"> 2 * 1 </Link></button>
-   <button>Skapa nytt schema!</button>
+  <div className="title">
+    <h1>Skapa nytt schema</h1>
+  </div>
 
+  <div className="row">
+    <div className="col-1-of-4">
+      <p className="info">
+        Fyll i egna dimensioner eller välj ett alternativ.
+        Välj 2 * 1 för att gå vidare.
+       </p>
+       <input type="text" placeholder="Fyll i egna dimensioner" />
+
+       <button className="btn btn--dimension-example"> 3 * 5 </button>
+       <button className="btn btn--dimension-example"><Link to="/createnewcreate"> 2 * 1 </Link></button>
+    </div>
+
+    <div className="col-3-of-4">
+      <button className="btn btn--create">Skapa nytt schema!</button>
+    </div>
+  </div>
 </div>
 );
 

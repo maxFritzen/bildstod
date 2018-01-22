@@ -1,0 +1,16 @@
+.header {
+padding-bottom: $s-size;
+}
+
+.header__nav {
+
+  &-home {
+    font-size: $l-size;
+  }
+  &-back {
+    background-color: $color-grey-light;
+    color: blue;
+    display: block;
+
+  }
+}

@@ -1,0 +1,27 @@
+.preview-small  {
+
+
+
+    &__item {
+      background-color: darken($color-grey-light, 10);
+      padding: $s-size;
+
+      &--selected {
+        border: 2px solid blue;
+      }
+
+      &:hover {
+        background-color: darken($color-grey-light, 20);
+        cursor: pointer;
+      }
+    }
+}
+
+.preview-large {
+  border: 1px solid black;
+  padding: 3rem;
+
+  &__item {
+    border:1px solid green;
+  }
+}
