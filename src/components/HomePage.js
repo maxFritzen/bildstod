@@ -12,6 +12,7 @@ const HomePage = () => (
         <p className="info">
           Gamla scheman visas med bild i litet format. Går att välja schema.
           Kan därefter ändra, skriva ut, eller använda som mall.
+          Knappar med rött runt sig går att klicka på.
          </p>
 
         <div className="preview-small">

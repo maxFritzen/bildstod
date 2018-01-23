@@ -11,7 +11,7 @@
   }
 
   &--back {
-    
+
   }
 
   &--blue-light {
@@ -22,5 +22,9 @@
   &--green-light {
     background-color: $color-green-light;
     color: $color-black;
+  }
+
+  &--large {
+    font-size: $l-size;
   }
 }

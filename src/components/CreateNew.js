@@ -16,7 +16,7 @@ const CreateNew = () => (
        <input type="text" placeholder="Fyll i egna dimensioner" />
 
        <button className="btn btn--dimension-example"> 3 * 5 </button>
-       <button className="btn btn--dimension-example"><Link to="/createnewcreate"> 2 * 1 </Link></button>
+       <Link to="/createnewcreate"> <button className="btn btn--dimension-example u-clickable">2 * 1 </button></Link>
     </div>
 
     <div className="col-3-of-4">

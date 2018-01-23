@@ -16,11 +16,9 @@ const Preview = () => (
            Kan här välja att använda som mall till nytt schema, eller ändra schemat.
           </p>
           <div className="preview-small">
-            <Link to="/preview">
               <div className="preview-small preview-small__item preview-small__item--selected">
                 Schema 1
               </div>
-            </Link>
             <div className="preview-small preview-small__item">
               <div>Schema 2</div>
             </div>
@@ -28,24 +26,23 @@ const Preview = () => (
           </div>
        </div>
        <div className="col-3-of-4">
-         <button className="btn btn--create u-clickable"><Link to="/createnew">Skapa nytt schema!</Link></button>
+         <Link to="/createnew"><button className="btn btn--create u-clickable">Skapa nytt schema!</button></Link>
          <div className="preview-large">
            <h2>Förhandsvisning</h2>
            <div className="row">
              <div className="col-2-of-4 preview-large__item">
-               <Square />
+               <div className="square square-preview">
+                   <img src="./images/slut2.jpg" alt="Tecknar ordet slut" />
+               </div>
              </div>
              <div className="col-2-of-4 preview-large__item">
-               <Square />
+               <div className="square square-preview">
+                   <img src="./images/slut2.jpg" alt="Tecknar ordet slut" />
+               </div>
              </div>
            </div>
-
              <button className="btn btn--blue-light" >Redigera schema</button>
              <button className="btn btn--green-light" >Använd som mall</button>
-
-
-
-
          </div>
        </div>
      </div>
