@@ -17,11 +17,11 @@ const Preview = () => (
           </p>
           <div className="preview-small">
             <Link to="/schema_1">
-              <div className="preview-small preview-small__item">
+              <div className="preview-small preview-small__item u-clickable">
                 Schema 1
               </div>
             </Link>
-            <div className="preview-small preview-small__item preview-small__item--selected">
+            <div className="preview-small preview-small__item preview-small__item--selected u-clickable">
               <div>Schema 2</div>
             </div>
 

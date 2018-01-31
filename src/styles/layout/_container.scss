@@ -2,9 +2,12 @@
   max-width: 90rem;
   margin: 0 auto;
   padding: 2rem $m-size;
-  border:1px solid black;
+  //border:1px solid black;
   border-radius: 5px;
+  box-shadow: .1rem .5rem 1.5rem rgba($color-black, .7);
   height: 90vh;
+
+  background-color: $color-palette-5-light;
 
   @include respond(tab-land) {
     min-height: 90vh;

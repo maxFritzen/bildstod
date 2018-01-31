@@ -24,8 +24,8 @@ button:disabled {
   cursor: default;
 }
 
-// a:visited,
-// a:link {
-//   color: $color-link;
-//   text-decoration: none;
-// }
+a:visited,
+a:link {
+  //color: $color-link;
+  text-decoration: none;
+}

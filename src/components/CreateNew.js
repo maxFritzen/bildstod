@@ -15,8 +15,8 @@ const CreateNew = () => (
        </p>
        <input type="text" placeholder="Fyll i egna dimensioner" />
 
-       <button className="btn btn--dimension-example"> 3 * 5 </button>
-       <button className="btn btn--dimension-example">2 * 1 </button>
+       <button className="btn btn--dimension-example" disabled> 3 * 5 </button>
+       <button className="btn btn--dimension-example" disabled>2 * 1 </button>
     </div>
 
     <div className="col-3-of-4">

@@ -16,11 +16,11 @@ const Preview = () => (
            Kan här välja att använda som mall till nytt schema, eller ändra schemat.
           </p>
           <div className="preview-small">
-              <div className="preview-small preview-small__item preview-small__item--selected">
+              <div className="preview-small preview-small__item preview-small__item--selected u-clickable">
                 Schema 1
               </div>
             <Link to="schema_2">
-              <div className="preview-small preview-small__item">
+              <div className="preview-small preview-small__item u-clickable">
                 <div>Schema 2</div>
               </div>
             </Link>
