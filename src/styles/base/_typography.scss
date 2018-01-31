@@ -6,3 +6,23 @@ body {
   line-height: 1.7;
   padding: 3rem;
 }
+
+.info {
+  background-color: $color-palette-4;
+  font-size: $m-size;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.title {
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: $s-size;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+
+  h1 {
+    font-weight: 300;
+
+  }
+}

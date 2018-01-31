@@ -11,16 +11,16 @@ const CreateNew = () => (
     <div className="col-1-of-4">
       <p className="info">
         Fyll i egna dimensioner eller välj ett alternativ.
-        Välj 2 * 1 för att gå vidare.
+        2 * 1 är förvalt, klicka på Skapa nytt schema för att gå vidare..
        </p>
        <input type="text" placeholder="Fyll i egna dimensioner" />
 
        <button className="btn btn--dimension-example"> 3 * 5 </button>
-       <Link to="/createnewcreate"> <button className="btn btn--dimension-example u-clickable">2 * 1 </button></Link>
+       <button className="btn btn--dimension-example">2 * 1 </button>
     </div>
 
     <div className="col-3-of-4">
-      <button className="btn btn--create">Skapa nytt schema!</button>
+      <Link to="/schema_skapa_id"> <button className="btn btn--create u-clickable">Skapa nytt schema</button></Link>
     </div>
   </div>
 </div>

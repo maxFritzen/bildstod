@@ -13,6 +13,7 @@ html {
 
 body {
   box-sizing: border-box;
+
 }
 
 button {
@@ -22,3 +23,9 @@ button {
 button:disabled {
   cursor: default;
 }
+
+// a:visited,
+// a:link {
+//   color: $color-link;
+//   text-decoration: none;
+// }

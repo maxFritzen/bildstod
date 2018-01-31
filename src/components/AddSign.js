@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 
 const AddSign = () => (
   <div>
-    <h1>Lägg till tecken</h1>
+    <div className="title">
+      <h1>Lägg till tecken</h1>
+    </div>
+
     <div className="row">
       <div className="col-1-of-4">
         <p className="info">
@@ -13,7 +16,7 @@ const AddSign = () => (
          </p>
          <div>
            <input type="text" placeholder="Sök bild/tecken" />
-           <button>Ladda upp egen bild</button>
+           <button disabled>Ladda upp egen bild</button>
          </div>
       </div>
       <div className="col-3-of-4">
@@ -23,7 +26,7 @@ const AddSign = () => (
       </div>
     </div>
      <div>
-       <Link to="/createnewcreate"><button className="btn btn--large btn--green-light u-clickable"> Klar </button></Link>
+       <Link to="/schema_skapa_id"><button className="btn btn--large btn--blue-light u-clickable"> Klar </button></Link>
      </div>
    </div>
  );

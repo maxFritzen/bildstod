@@ -4,10 +4,12 @@
   padding: 1rem;
 
   &--create {
-    background-color: $color-primary-light;
-    color: $color-black;
+    background-color: $color-palette-1;
+    border:1px solid $color-palette-2;
+    box-shadow: inset 0 2px 1px $color-palette-3;
+    color: $color-white;
     font-size: $l-size;
-    font-weight: 900;
+
   }
 
   &--back {
@@ -15,7 +17,9 @@
   }
 
   &--blue-light {
-    background-color: $color-blue-light;
+    background-color: $color-palette-2;
+    border:1px solid $color-palette-2;
+    box-shadow: inset 0 2px 1px $color-palette-3;
     color: $color-white;
   }
 
@@ -27,4 +31,9 @@
   &--large {
     font-size: $l-size;
   }
+
+  &:active {
+    transform: translateY(.5rem);
+  }
+
 }

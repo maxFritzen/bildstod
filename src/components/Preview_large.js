@@ -8,12 +8,13 @@ const HomePage = () => (
     </div>
     <div className="row ">
       <div className="nav-top">
-        <div className="col-1-of-3 u-invisible">col-1-of-3</div>
-        <div className="col-1-of-3 u-invisible">col-1-of-3</div>
+        <div className="col-1-of-3">&nbsp;</div>
+        <div className="col-1-of-3">&nbsp;</div>
         <div className="col-1-of-3">
-          <button className="btn">Ändra schema</button>
-          <button className="btn">Skriv ut</button>
-          <button className="btn btn--blue-light">Dela</button>
+          <button className="btn" disabled>Ändra schema</button>
+          <button className="btn" disabled>Spara</button>
+          <button className="btn" disabled>Skriv ut</button>
+          <button className="btn" disabled>Dela</button>
         </div>
       </div>
     </div>

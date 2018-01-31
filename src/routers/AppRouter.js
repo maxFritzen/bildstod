@@ -4,7 +4,8 @@ import createHistory from 'history/createBrowserHistory';
 import Header from '../components/Header';
 import NotFoundPage from '../components/NotFoundPage';
 import HomePage from '../components/HomePage';
-import Preview from '../components/Preview';
+import Schema_1 from '../components/Schema_1';
+import Schema_2 from '../components/Schema_2';
 import Preview_large from '../components/Preview_large';
 import CreateNew from '../components/CreateNew';
 import CreateNewCreate from '../components/CreateNewCreate';
@@ -17,11 +18,12 @@ const AppRouter = () => (
       <Header />
       <Switch>
         <Route path="/" component={HomePage} exact={true} />
-        <Route path="/preview" component={Preview} exact={true} />
-        <Route path="/preview_large" component={Preview_large} exact={true} />
-        <Route path="/createnew" component={CreateNew} exact={true} />
-        <Route path="/createnewcreate" component={CreateNewCreate} exact={true} />
-        <Route path="/addsign" component={AddSign} exact={true} />
+        <Route path="/schema_1" component={Schema_1} />
+        <Route path="/schema_2" component={Schema_2} />
+        <Route path="/schema_forhandsgranska_id" component={Preview_large}  />
+        <Route path="/schema_skapa" component={CreateNew}  />
+        <Route path="/schema_skapa_id" component={CreateNewCreate}  />
+        <Route path="/addsign" component={AddSign} />
         <Route component={NotFoundPage} />
       </Switch>
     </div>

@@ -5,12 +5,26 @@ padding-bottom: $s-size;
 .header__nav {
 
   &-home {
+    border-bottom: 1px solid $color-palette-1;
+    color: $color-palette-2;
     font-size: $l-size;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
   }
   &-back {
     background-color: $color-grey-light;
-    color: blue;
+    color: $color-palette-2;
     display: block;
+    border: none;
+    outline: none;
 
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+
+    }
   }
 }

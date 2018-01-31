@@ -1,4 +1,10 @@
 // COLORS
+$color-palette-1: #285FFF;
+$color-palette-2: #258AE8;
+$color-palette-3: #35D3FF;
+$color-palette-4: #25E8DE;
+$color-palette-5: #28FFB7;
+
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
@@ -15,13 +21,18 @@ $color-white: #fff;
 $color-black: #000;
 $color-blue-light: #2a81a4;
 $color-green-light: #7ed56f;
+
+$color-clickable: #5643fa;
+
+$color-link:  #000;
 // font
 $default-font-size: 1.6rem;
 
 // grid
-$grid-width: 100rem;
-$gutter-vertical: 8rem;
-$gutter-horizontal: 6rem;
+$grid-width: 114rem;
+$gutter-vertical: 4rem;
+$gutter-vertical-small: 2rem;
+$gutter-horizontal: 4rem;
 
 //Spacing
 $s-size: 1.2rem;

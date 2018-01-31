@@ -1,5 +1,13 @@
 .container {
   max-width: 90rem;
   margin: 0 auto;
-  padding: 0 $m-size;
+  padding: 2rem $m-size;
+  border:1px solid black;
+  border-radius: 5px;
+  height: 90vh;
+
+  @include respond(tab-land) {
+    min-height: 90vh;
+    height: auto;
+  }
 }

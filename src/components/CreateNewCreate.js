@@ -16,8 +16,8 @@ const CreateNewCreate = () => (
         <div className="col-1-of-3 u-invisible">col-1-of-3</div>
         <div className="col-1-of-3 u-invisible">col-1-of-3</div>
         <div className="col-1-of-3">
-          <button className="btn btn--blue-light">Spara</button>
-          <Link to="/preview_large"><button className="btn btn--blue-light u-clickable">Förhandsgranska</button></Link>
+          <button className="btn" disabled>Spara</button>
+          <Link to="/schema_forhandsgranska_id"><button className="btn btn--blue-light u-clickable">Förhandsgranska</button></Link>
         </div>
       </div>
     </div>
@@ -38,10 +38,10 @@ const CreateNewCreate = () => (
              <img src="./images/slut2.jpg" alt="Tecknar ordet slut" />
 
 
-             <button className="u-clickable"><Link to="/addsign">Ändra tecken</Link></button>
+             <Link to="/addsign"><button className="btn btn--blue-light u-clickable">Ändra tecken</button></Link>
 
 
-             <button>Ändra text</button>
+             <button disabled>Ändra text</button>
 
 
          </div>
@@ -50,16 +50,16 @@ const CreateNewCreate = () => (
         <div className="col-1-of-3">
           <div className="square">
             <div className="square__component">
-              <button className="btn btn--blue-light">Lägg till bild</button>
-              <button >Ta bort komponent</button>
+              <button className="btn" disabled>Lägg till bild</button>
+              <button disabled>Ta bort komponent</button>
             </div>
             <div className="square__component">
               <Link to="/addsign"><button className="btn btn--blue-light u-clickable">Lägg till tecken</button></Link>
-              <button >Ta bort komponent</button>
+              <button disabled>Ta bort komponent</button>
             </div>
             <div className="square__component">
-              <button className="btn">Lägg till text</button>
-              <button >Ta bort komponent</button>
+              <button className="btn" disabled>Lägg till text</button>
+              <button disabled>Ta bort komponent</button>
             </div>
           </div>
 

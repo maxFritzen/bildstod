@@ -4,6 +4,15 @@
 
   &:not(:last-child) { //selects everything excepts last child
     margin-bottom: $gutter-vertical;
+
+    @include respond(tab-land) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+
+  @include respond(tab-port) {
+    padding: 0 3rem;
+    max-width: 50rem;
   }
 
   @include clearfix;
@@ -13,6 +22,19 @@
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
+
+      @include respond(tab-port) {
+        margin-bottom: $gutter-vertical-small;
+        margin-right: 0;
+      }
+      @include respond(tab-land) {
+        margin-bottom: $gutter-vertical-small;
+        
+      }
+    }
+
+    @include respond(tab-port) {
+      width: 100% !important;
     }
   }
 
