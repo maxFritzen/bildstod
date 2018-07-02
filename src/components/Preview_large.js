@@ -31,8 +31,8 @@ const HomePage = () => (
           Vill den göra ändringar kan den välja att spara schemat och sedan ändra.
         </p>
         <p className="info">
-          Exempel: Mamma skapar schema. När klar delar hon det med Wilmer.
-          Han kan kolla på det på sin ipad, men inte ändra något.
+          Exempel: Förälder skapar schema. När klar delas det med barn.
+          Barnet kan kolla på det på sin ipad, men inte ändra något.
 
          </p>
       </div>
